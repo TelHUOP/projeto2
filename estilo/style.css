@@ -1,0 +1,58 @@
+@charset "UTG-8";
+
+body {
+    background-color: rgb(214, 228, 138);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1 {
+    font-size: 3.1em;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(91, 180, 231);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.534);
+    text-justify: auto;
+    font-size: 1.5em;
+    margin: 5px;
+}
+nav > a {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+
+nav > a:hover {
+    background-color: rgb(235, 108, 224);       
+
+}
+
+table {
+    width: 88%;
+    margin: auto;
+    padding: 10px;
+    
+}
+tr > td {
+    width: 300px;
+    border: 1px solid black;
+    padding: 8px; 
+    background-color: rgba(172, 185, 228, 0.479);
+    text-align: center;
+    vertical-align: middle;
+                       
+}
+tr {
+    padding:
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}

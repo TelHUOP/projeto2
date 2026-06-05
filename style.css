@@ -3,33 +3,148 @@
 body {
     background-color: blanchedalmond;
     font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 10px;
+}
+
+table {
+    width: 88%;
+    margin: auto;
+}
+tr > td {
+    width: 300px;
+    border: 1px solid black;
+    padding: 8px; 
+    background-color: rgba(172, 185, 228, 0.479);
+    text-align: center;
+    vertical-align: middle;
+                       
+}
+
+img {
+    width: 300px;
+    height: 300px;
 }
 
 h1 {
-    color: rgb(116, 103, 230);
-}
-
-h1#principal {
-    text-align: center;
-    background-color: blueviolet;
+    background-color: 
     color: white;
+    text-align: center;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;    
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    
+    
 }
-h2 {
-    color: rgb(153, 7, 7);
+header {
+    margin: auto;
+    color: white;
+    background-color: blueviolet;
+    display: block;
+    font-size: 2.1em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-.basico {
-    color: rgb(153, 7, 7);
+
+p {
+    background-color: blueviolet;
+    color: black;
+    font-size: 1.3em;
+    margin-left: ;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;    
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 0px 
+    
+    
 
 }
-.intermediario {
-    color: rgb(170, 60, 60);
+
+nav {
+    background-color: blueviolet;
+    padding: 10px;
+    box-shadow: 0px 7px 7px black;
+    text-justify: auto;
+    font-size: 1.5em;
+}
+
+nav > a {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
 
 }
-.avancado {
-    color: rgba(212, 18, 18, 0.397);
+
+nav > a:hover {
+    background-color: yellow;       
 
 }
-.destaque {
-    background-color: rgb(77, 206, 77);
+    
+div {
+
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
+
+.caixa-maior {
+    background-color: blueviolet;
+    width: 1450px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.input-digite {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: aqua;
+    color: blue;
+    font-size: 20px;
+    width: 400px;
+}
+    
+.botao {
+    padding: 10px;
+    border: none;
+    background-color: chartreuse;
+    border-radius: 50%;
+    margin-left: 8px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.botao:hover {
+    background-color: fff;
+}
+
+
+
