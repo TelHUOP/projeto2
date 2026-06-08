@@ -9,6 +9,12 @@ h1 {
     font-size: 3.1em;
     text-align: center;
 }
+p {
+    margin: 10px;
+    font-size: 32.5px;
+    padding: 10px;
+
+}
 
 nav {
     background-color: rgb(91, 180, 231);
