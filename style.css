@@ -83,6 +83,8 @@ nav {
     box-shadow: 0px 7px 7px black;
     text-justify: auto;
     font-size: 1.5em;
+    position: sticky;
+    top: 0;
     
 }
 
@@ -150,6 +152,9 @@ div {
 
 .botao:hover {
     background-color: fff;
+}
+footer {
+    background
 }
 
 

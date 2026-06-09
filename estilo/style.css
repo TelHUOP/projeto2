@@ -23,6 +23,8 @@ nav {
     text-justify: auto;
     font-size: 1.5em;
     margin: 5px;
+    position: sticky;
+    top: 0;
 }
 nav > a {
     color: black;
@@ -62,4 +64,8 @@ tr {
 img {
     width: 300px;
     height: 300px;
+}
+footer {
+    text-align: center;
+    color: fff
 }
